@@ -32,7 +32,18 @@ Decryption is free, of course. You wait for it to stop encrypting, once it pops 
 - Doesn't always stop user input
 - Slow lol
 
+`How to install?`
 
+Download all necessary imports (found in the files, too lazy to add a txt file with all of them)
+Make sure Python is installed (3.7+ I think)
+CD into the files directory
+python3 main.py
+
+***OR***
+
+pyinstaller -F main.py
+
+if you want to compile into an exe^
 
 `Disclaimer`
 
