@@ -8,7 +8,8 @@ So, you may be wondering... "What does it do?"
 
 Well, it's ransomware. it encrypts all your files.
 
-It does take some time to encrypt, so sorry. Takes around 60+ Seconds depending on the amount of files. Can take up to 5-10 minutes even. 
+It does take some time to encrypt, so sorry. Takes around 60+ Seconds depending on the amount of files. Can take up to 5-10 minutes even, depending on how many files, again. It is slow, because, well, Python isn't the fastest. There's a bit of threading, but it doesn't speed it up much.
+
 
 Decryption is free, of course. You wait for it to stop encrypting, once it pops up the .txt file, you can choose whether you want to decrypt or not.
 
@@ -24,7 +25,6 @@ Decryption is free, of course. You wait for it to stop encrypting, once it pops 
 - Bypasses Windows Defender (soon to be tested w/ malwarebytes premium)
 - Detects and bypasses VM's (dunno if it works)
 - Adds itself to the registry
-- Free decryption
 
 
 ***Known Bugs:***
@@ -32,7 +32,7 @@ Decryption is free, of course. You wait for it to stop encrypting, once it pops 
 - Doesn't always stop user input
 - Slow lol
 
-`How to install?`
+`How to run?`
 
 Download all necessary imports (found in the files, too lazy to add a txt file with all of them)
 Make sure Python is installed (3.7+ I think)
